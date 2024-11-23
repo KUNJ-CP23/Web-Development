@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewsport" content="width=device-width,
+            initial-scale=1">
+            <title>Layout 2</title>
+            <style type="text/css">
+                *{
+                    box-sizing:border-box;
+                }
+                div{
+                    float:left;
+                }
+                .main{
+                    width: 100%;
+                    background-color: gray;
+                }
+                .header{
+                    width: 100%;
+                    height: 120px;
+                    background-color: #49c726;
+                    padding: 10px;
+                    
+                }
+                .contentBody{
+                    height: 500px;
+                    width: 100%;
+                    background-color: gray;
+                }
+                .footer{
+                    height: 50px;
+                    width: 100%;
+                    background-color: blue;
+                    color: aliceblue;
+                    font-size: 25px;
+                }
+                
+                .logoimg{
+                    width: 20px;
+                    height: 20px;
+                }
+                .menu{
+                    font-size: 35px;
+                    float: right;
+                    margin-left: 20px;
+                    background-color: #3fd9bf;
+                    /* padding-left: 15px;
+                    padding-right: 15px;
+                    background-color: yellowgreen; */
+                }
+                .sidebar{
+                    width: 270px;
+                    height: 500px;
+                    background-color: red;
+                    margin: 10px 10px 10px 10px;
+                }
+                .content{
+                    width: 1025px;
+                    height: 470px;
+                    background-color: #f5ef47;
+                    float: right;
+                    margin-right: 1%;
+                    margin-top: 1%;
+                }
+                .stuprof{
+                    background-color: #f5ef47;
+                    height: 380px ;
+                    margin-left: 1.5%;
+                    margin-right: 1.5%;
+                    width: 310px;
+                }
+                .defaultpic{
+                    height: 70px;
+                    width: 70px;
+                }
+                .info{
+                    
+                }
+                .sideMenu{
+                    font-size: 35px;
+                    list-style-type: none;
+                    width: 20%;
+                }
+                .sideMenuLink{
+                    text-decoration: none;
+                    color: black;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="main">
+                <div class="header">
+                    <div class="logo">
+                        <img src="./Darshan University logo.png" height="100" width="230">
+
+                    </div>
+                    <div class="menu">
+                        Visit
+                    </div>
+                    <div class="menu">
+                        Personal
+                    </div>
+                    <div class="menu">
+                        Contact
+                    </div>
+                    <div class="menu">
+                        Services
+                    </div>
+                    <div class="menu">
+                        About
+                    </div>
+                    <div class="menu">
+                        Home
+                    </div>
+
+                </div>
+                
+                <div class="contentBody">
+                    <div class="sidebar">
+                        <ul class="sideMenu">
+                            <li><a class="sideMenuLink" href="#">Home</a></li>
+                            <li><a class="sideMenuLink" href="#">About</a></li>
+                            <li><a class="sideMenuLink" href="#">Product</a></li>
+                            <li><a class="sideMenuLink" href="#">Services</a></li>
+                            <li><a class="sideMenuLink" href="#">Blog</a></li>
+                            <li><a class="sideMenuLink" href="#">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="content">
+                        <h2 align="center">Student Details</h2>
+                        <div class="stuprof">
+                            <div class="deafultpic">
+                                <img src="./student deafult img.png" height="100px" width="100px" align="center">
+                                <h4>Student Name</h4>
+                            </div>
+                        </div>
+                        <div class="stuprof">
+                            <div class="deafultpic">
+                                <img src="./student deafult img.png" height="100px" width="100px" align="center">
+                                <div class="info">
+                                    Student Name
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stuprof">
+                            <div class="deafultpic">
+                                <img src="./student deafult img.png" height="100px" width="100px" align="center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    Footer
+                </div>
+            </div>
+        </div>
+        </body>
+    </html>

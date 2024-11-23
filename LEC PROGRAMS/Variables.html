@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>CSS Variable</title>
+        <style type="text/css">
+            :root{
+                --themeColor1: rgb(245, 169, 169);
+                --themeColor2: green;
+                
+            }
+            p{
+                --themeColor1 :orange;
+                --themeColor2: green;
+                height: 10vh;
+                /* background-color: var(--themeColor2);
+                color: var(--themeColor1); */
+            }
+            div{
+                background-color: var(--themeColor1);
+                color: var(--themeColor2);
+                height: 10vh;
+            }
+            p{
+                background-color: var(--themeColor2);
+                color: var(--themeColor1);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            Darshan University
+        </div>
+        <p>
+            Kunj Ramoliya
+        </p>
+        <div>
+            Darshan University
+        </div>
+        <p>
+            Kunj Ramoliya
+        </p>
+        <div>
+            Darshan University
+        </div>
+        <p>
+            Kunj Ramoliya
+        </p>
+    </body>
+</html>
