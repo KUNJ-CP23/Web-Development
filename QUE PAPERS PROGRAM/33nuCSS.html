@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effects</title>
+  <style>
+    /* (i) Visited links red, unvisited links blue */
+    a:visited {
+      color: red;
+    }
+    a {
+      color: blue;
+    }
+
+    /* (ii) Table with odd rows pink and even rows blue */
+    tr:nth-child(odd) {
+      background-color: pink;
+    }
+    tr:nth-child(even) {
+      background-color: blue;
+    }
+
+    /* (iii) Text color-green, Text-indentation-2cm, Text case-uppercase */
+    .green-text {
+      color: green;
+      text-indent: 2cm;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <!-- (i) Visited links and unvisited links -->
+  <p>Visited link: <a href="https://example.com" target="_blank">Visited link</a></p>
+  <p>Unvisited link: <a href="https://example.com" target="_blank">Unvisited link</a></p>
+
+  <!-- (ii) Table with odd rows pink and even rows blue -->
+  <table>
+    <tr>
+      <td>Row 1</td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+    </tr>
+    <tr>
+      <td>Row 3</td>
+    </tr>
+    <tr>
+      <td>Row 4</td>
+    </tr>
+    <tr>
+      <td>Row 5</td>
+    </tr>
+  </table>
+
+  <!-- (iii) Text color-green, Text-indentation-2cm, Text case-uppercase -->
+  <div class="green-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Mauris vel malesuada libero. Nulla fermentum, neque at gravida ullamcorper, nulla odio varius elit, id cursus turpis justo et purus.
+  </div>
+</body>
+</html>
