@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Layout 6B</title>
+        <style type="text/css">
+            *{
+                box-sizing: border-box;
+            }
+            .main{
+                background-color: white;
+                height: 100vh;
+            }
+            .header{
+                width: 100%;
+                height: 20%;
+            }
+            .img1{
+                float: left;
+            }
+            #logo{
+                height: 115px;
+                width: 115px;
+            }
+            .menu{
+                margin-right: 3%;
+                float: right;
+                font-size: 20px;
+                margin-top: 4%;
+            }
+            .content{
+                border: 1px solid black;
+                width: 100%;
+                height: 70%;
+                background-color: white;
+            }
+            .sidebar{
+                float: left;
+                width: 20%;
+                height: 100%;
+                background-color: rgb(248, 0, 0);
+            }
+            .sideMenu{
+                list-style-type: none; 
+                width: 100%;  
+                height: 100%;   
+                /* background-color: blue;         */
+                /* text-align: center; center align works*/
+            }
+            .sidemenufont{
+                margin-bottom: 10%;
+                border: 2px solid green;
+                border-width: 100%;
+                font-size: 20px;
+                align-content: center;
+                text-align: center; /* here center align works*/
+                width: 100%;
+                height: 48px;
+            }
+            .mainbody{
+                width: 80%;
+                height: 100%;
+                float: right;
+            }
+            .top{
+                height: 140px;
+               font-size: small;  
+            }
+            .image1{
+                width: 95px;
+                margin-left: 10px;
+                margin-top: 10px;
+                float: left;
+            }
+            .image2{
+                width: 95px;
+                margin-left: 10px;
+                margin-top: 170px;  
+            }
+            #logo2{
+                height: 85px;
+                width: 85px;
+            }
+            .bottom{
+                height: 140px;
+                width: 100%;
+               font-size: small;
+                float: left;
+            }
+            .footer{
+                width: 100%;
+                background-color: blue;
+                color: white;
+                height: 10%;
+                text-align: center;
+                font-size: 35px;
+            }
+            @media (max-width:500px){
+                .top{
+                    width: 100%;
+                    padding: 2%;
+                }
+                .bottom{
+                    width: 100%;
+                    padding: 2%;
+                }
+                .sidebar{
+                    width: 80%;
+                    height: 100%;
+                }
+                
+                .mainbody{
+                    width: 100%;
+                    
+                    float: right;
+                }
+                .footer{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="img1">
+                    <img id="logo" src="./student deafult img.png">
+                </div> 
+                <div class="menu">
+                    Login
+                </div>
+                <div class="menu">
+                    Contact
+                </div>
+                <div class="menu">
+                    About
+                </div>
+                <div class="menu">
+                    Home
+                </div>       
+            </div>
+            <hr color="gray">
+            <div class="content">
+                <div class="sidebar">
+                    <div class="sideMenu">
+                        <div class="sidemenufont">Sidebar</div>
+                        <div class="sidemenufont">Home</div>
+                        <div class="sidemenufont">Placement</div>
+                        <div class="sidemenufont">Recruitment</div>
+                        <div class="sidemenufont">Faculty</div>
+                        <div class="sidemenufont">News</div>
+                        </div>
+                    </div>
+                    <div class="mainbody">
+
+                        <div class="top">
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                        </div>
+
+                        <div class="bottom">
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                            <div class="image1"> 
+                                <img id="logo2" src="./student deafult img.png">
+                            Arjun Bala<br> BE, ME, Prof
+                            </div>
+                        </div>
+                    </div>
+                            
+            </div>
+            <div class="footer">
+                &copyDarshan University-Rajkot
+            </div>
+        </div>
+    </body>
+</html>
